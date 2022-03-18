@@ -15,8 +15,6 @@ module.exports = {
 	extractHeaders: [ 'h2', 'h3', 'h4' ]
   },
   themeConfig: {
-    // 最后更新时间
-    lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
     sidebar: 'auto',
     // 仓库地址
