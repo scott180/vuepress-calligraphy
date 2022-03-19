@@ -1,6 +1,6 @@
 # vuepress-calligraphy
 
-使用VuePress构建《书法练习轨迹》网站。[xushufa]( https://xushufa.cn )
+使用VuePress构建《书法练习轨迹》网站。[xushufa]( https://xushufa.cn ) &ensp; [vuepress-calligraphy]( https://scott180.github.io/vuepress-calligraphy )
 
 ## 首页
 
