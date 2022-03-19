@@ -3,6 +3,7 @@ module.exports = {
   title: '徐书法',
   // 网页描述
   description: '无为徐生 书法练习轨迹',
+  base: '/vuepress-calligraphy/',
   head: [
     // 页面icon
     ['link', { rel: 'icon', href: '/icon.png' }]
