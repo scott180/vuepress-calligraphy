@@ -73,7 +73,7 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:scott180/scott180.github.io.git master
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
+# 如果发布到 https://<USERNAME>.github.io/<REPO>  注意配置 `docs\.vuepress\config.js` 的 `base`
 # git push -f git@github.com:scott180/vuepress-calligraphy.git master:gh-pages
 
 cd -
@@ -93,3 +93,16 @@ cd -
 ```
 
 运行 `npm run deploy` 即可部署到github静态页面
+
+> 如出现样式丢失，css文件不能加载问题，需要在 `docs\.vuepress\config.js` 配置 `base` 字段
+
+```
+module.exports = {
+  // 页面标题
+  title: '徐书法',
+  // 网页描述
+  description: '无为徐生 书法练习轨迹',
+  base: '/vuepress-calligraphy/',
+```
+
+---
