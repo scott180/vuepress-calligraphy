@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: 徐书法
 heroImage: /logo.jpg
 actionText: 开始 →
-actionLink: /练习/书法练习轨迹--明月几时有
+actionLink: /练习/书法练习轨迹ReadMe
 features:
 - title: 徐书法
   details: 十年如一日，徐徐练习，徐书必有法。

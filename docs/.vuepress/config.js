@@ -37,6 +37,7 @@ module.exports = {
         ]
       },
       { text: '练习', items: [
+          { text: '徐书法', link: '/练习/徐书法'}, 
           { text: '古文诗词', link: '/练习/古文诗词'}, 
           { text: '笔名汉字频率分析', link: '/练习/笔名汉字频率分析'},
           { text: '书法练习轨迹ReadMe', link: '/练习/书法练习轨迹ReadMe'},
