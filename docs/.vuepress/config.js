@@ -1,6 +1,6 @@
 module.exports = {
   // 页面标题
-  title: '徐书法',
+  title: '书法练习',
   // 网页描述
   description: '无为徐生 书法练习轨迹',
   // base: '/vuepress-calligraphy/',
