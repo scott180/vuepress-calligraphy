@@ -19,9 +19,9 @@ module.exports = {
     // 所有页面自动生成侧边栏
     sidebar: 'auto',
     // 仓库地址
-    repo: 'https://github.com/scott180/vuepress-calligraphy',
+    // repo: 'https://github.com/scott180/vuepress-calligraphy',
     // 仓库链接label
-    repoLabel: 'Github',
+    // repoLabel: 'Github',
     // 编辑链接
     editLinks: false,
     // 导航
@@ -29,23 +29,35 @@ module.exports = {
 	  { text: '主页', link: '/'},
 	  { text: '书法', items: [
           { text: '书法名帖', link: '/书法/书法名帖'}, 
+		  { text: '灵飞经', link: '/书法/灵飞经'},
 		  { text: '多宝塔碑', link: '/书法/多宝塔碑'},
+		  { text: '《心经》书法', link: '/书法/《心经》书法'},
           { text: '《兜沙经》书法', link: '/书法/《兜沙经》书法'}, 
-          { text: '《心经》书法', link: '/书法/《心经》书法'},
-          { text: '灵飞经', link: '/书法/灵飞经'},
           { text: '文徵明-小楷千字文', link: '/书法/文徵明-小楷千字文'},
           { text: '文徵明-小楷《草堂十志》', link: '/书法/文徵明-小楷《草堂十志》'}
         ]
       },
       { text: '练习', items: [
           { text: '徐书法', link: '/练习/徐书法'}, 
+		  { text: '无为徐生', link: '/练习/无为徐生'},
           { text: '古文诗词', link: '/练习/古文诗词'}, 
           { text: '笔名汉字频率分析', link: '/练习/笔名汉字频率分析'},
           { text: '书法练习轨迹ReadMe', link: '/练习/书法练习轨迹ReadMe'},
           { text: '书法练习轨迹--明月几时有', link: '/练习/书法练习轨迹--明月几时有'}
         ]
       },
-      { text: '作者', link: '/作者/无为徐生'}
+      { text: '轨迹', items: [
+          { text: '自序', link: '/轨迹/自序'}, 
+          { text: '诗词杂句', link: '/轨迹/诗词杂句'}, 
+          { text: '有感之杂说', link: '/轨迹/有感之杂说'}
+        ]
+      },
+	  { text: '去看看', items: [
+          { text: 'blog', link: 'https://reco-blog.xushufa.cn'}, 
+          { text: 'github', link: 'https://github.com/scott180/calligraphy'},
+		  { text: 'calligraphy', link: 'https://reco-calligraphy.xushufa.cn'}
+        ]
+      },
   ]},
   configureWebpack: {
     resolve: {
