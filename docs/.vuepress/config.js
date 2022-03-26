@@ -26,6 +26,7 @@ module.exports = {
     editLinks: false,
     // 导航
     nav: [
+	  { text: '主页', link: '/'},
 	  { text: '书法', items: [
           { text: '书法名帖', link: '/书法/书法名帖'}, 
 		  { text: '多宝塔碑', link: '/书法/多宝塔碑'},
