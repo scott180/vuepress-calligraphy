@@ -52,12 +52,7 @@ module.exports = {
           { text: '有感之杂说', link: '/轨迹/有感之杂说'}
         ]
       },
-	  { text: '去看看', items: [
-          { text: 'blog', link: 'https://reco-blog.xushufa.cn'}, 
-          { text: 'github', link: 'https://github.com/scott180/calligraphy'},
-		  { text: 'calligraphy', link: 'https://reco-calligraphy.xushufa.cn'}
-        ]
-      },
+	  { text: '关于我', link: '/练习/关于我'},
   ]},
   configureWebpack: {
     resolve: {
