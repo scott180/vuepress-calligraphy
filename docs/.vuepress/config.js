@@ -22,6 +22,7 @@ module.exports = {
     // repo: 'https://github.com/scott180/vuepress-calligraphy',
     // 仓库链接label
     // repoLabel: 'Github',
+	lastUpdated: '更新时间',
     // 编辑链接
     editLinks: false,
     // 导航
