@@ -35,7 +35,7 @@ export default {
     watch: {
         $route: {
             handler (to, from) {
-                let isHide = HIDE_VALINE_PATHS.includes(to.path)
+                let isHide = HIDE_VALINE_PATHS && HIDE_VALINE_PATHS.includes(to.path)
                 this.visibleValine = !isHide
             },
             immediate: true
