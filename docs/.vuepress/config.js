@@ -68,8 +68,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器'
+	  title: '书法练习',
+      description: '无为徐生 书法练习轨迹',
     }
   },
   plugins: [
