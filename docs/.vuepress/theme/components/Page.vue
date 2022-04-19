@@ -53,7 +53,7 @@ export default {
 
 .u-valine-wrap {
     position: relative;
-    top: 142px;
+    top: 152px;
     left: 48px;
     max-width: 840px;
     height: 20px;
