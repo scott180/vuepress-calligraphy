@@ -1,6 +1,7 @@
 module.exports = {
   // 页面标题
   title: '书法练习',
+  lang: 'zh-CN',
   // 网页描述
   description: '无为徐生 书法练习轨迹',
   // base: '/vuepress-calligraphy/',
@@ -63,5 +64,25 @@ module.exports = {
         '@vue': '../images/vue'
       }
     }
-  }
+  },
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'VuePress',
+      description: 'Vue 驱动的静态网站生成器'
+    }
+  },
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // 不要忘了安装 moment
+          const moment = require('moment')
+          moment.locale(lang)
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+        }
+      }
+    ]
+  ]
 }
