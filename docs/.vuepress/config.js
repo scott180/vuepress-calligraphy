@@ -51,7 +51,8 @@ module.exports = {
       { text: '轨迹', items: [
           { text: '自序', link: '/轨迹/自序'}, 
           { text: '诗词杂句', link: '/轨迹/诗词杂句'}, 
-          { text: '有感之杂说', link: '/轨迹/有感之杂说'}
+          { text: '有感之杂说', link: '/轨迹/有感之杂说'},
+          { text: '书法练习轨迹remark', link: '/轨迹/书法练习轨迹remark'},
         ]
       },
 	  { text: '关于我', link: '/练习/关于我'},
