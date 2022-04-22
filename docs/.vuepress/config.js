@@ -84,6 +84,12 @@ module.exports = {
           return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
         }
       }
+    ],
+	[
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-ZCB678LNKB' // UA-00000000-0
+      }
     ]
   ]
 }
