@@ -1,9 +1,9 @@
 module.exports = {
   // 页面标题
-  title: '书法练习',
+  title: '书法练习轨迹',
   lang: 'zh-CN',
   // 网页描述
-  description: '无为徐生 书法练习轨迹',
+  description: '徐书法 无为徐生 书法练习轨迹',
   // base: '/vuepress-calligraphy/',
   head: [
     // 页面icon
@@ -71,7 +71,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-	  title: '书法练习',
+	  title: '书法练习轨迹',
       description: '无为徐生 书法练习轨迹',
     }
   },
