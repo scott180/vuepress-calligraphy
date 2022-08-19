@@ -31,6 +31,7 @@ module.exports = {
 	  { text: '主页', link: '/'},
 	  { text: '书法', items: [
           { text: '书法名帖', link: '/书法/书法名帖'}, 
+		  { text: '赤壁赋', link: '/书法/赤壁赋'},
 		  { text: '灵飞经', link: '/书法/灵飞经'},
 		  { text: '多宝塔碑', link: '/书法/多宝塔碑'},
 		  { text: '《心经》书法', link: '/书法/《心经》书法'},
